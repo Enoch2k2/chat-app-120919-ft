@@ -1,5 +1,5 @@
 // make a socket connection to our server
-const socket = io.connect('http://localhost:3000');
+const socket = io.connect('https://chat-app-120919-ft.herokuapp.com/');
 
 // On Page Load //
 document.addEventListener('DOMContentLoaded', function () {
