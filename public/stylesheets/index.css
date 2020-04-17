@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+div#Chat-App {
+    width: 800px;
+    margin: 0 auto;
+}
+
+div.wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+div#Chat-Window {
+    width: 800px;
+    height: 400px;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+h1 {
+    font-size: 46px;
+}
+
+input {
+    display: block;
+    width: 800px;
+    height: 50px;
+    font: 40px black verdana;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+#username {
+    font: 40px black verdana;
+}
+
+label {
+    font: 40px black verdana;
+}
+
+input#message {
+    font-size: 24px;
+}
+
+input#send {
+    width: 800px;
+    height: 50px;
+    background-color: blue;
+    font-size: 36px;
+    color: white;
+}
